@@ -1,0 +1,31 @@
+{
+  "author": "",
+  "description": "",
+  "license": "ISC",
+  "name": "lab4",
+  "private": true,
+  "scripts": {
+    "client:build": "cd client && npm run build",
+    "client:install": "cd client && npm install",
+    "client:lint": "cd client && npm run lint",
+    "client:lint:fix": "cd client && npm run lint:fix",
+    "install": "npm run client:install && npm run server:install",
+    "lint": "npm run client:lint && npm run server:lint",
+    "lint:fix": "npm run client:lint:fix && npm run server:lint:fix",
+    "server:install": "cd server && npm install",
+    "server:lint": "cd server && npm run lint",
+    "server:lint:fix": "cd server && npm run lint:fix",
+    "server:start": "cd server && npm run start",
+    "start": "npm run client:build && npm run server:start"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "session-file-store": "^1.5.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "sqlite3": "^5.1.7"
+  }
+}

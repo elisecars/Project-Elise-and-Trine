@@ -1,0 +1,12 @@
+{
+  "cookie": {
+    "originalMaxAge": 3600000,
+    "expires": "2025-03-25T09:44:44.261Z",
+    "secure": false,
+    "httpOnly": true,
+    "path": "/",
+    "sameSite": "Lax"
+  },
+  "user": "admin",
+  "__lastAccess": 1742892284262
+}
