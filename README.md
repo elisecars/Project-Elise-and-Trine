@@ -4,31 +4,31 @@ Detta projekt är ett webbaserat bokningssystem utvecklat med Vue.js på klients
 Systemet har två typer av användare: studenter och assistenter.
 
 # Vad programmet gör
-Student
-    Som student kan man:
-    - Registrera sig och logga in
-    - Se tillgängliga bokningstider
-    - Boka en ledig tid
-    - Avboka en bokad tid innan avbokningsdeadline
-    - Skapa en grupp
-    - Gå med i en grupp
-    - Se vilka tider som är bokade eller reserverade
+## Student
+Som student kan man:
+- Registrera sig och logga in
+- Se tillgängliga bokningstider
+- Boka en ledig tid
+- Avboka en bokad tid innan avbokningsdeadline
+- Skapa en grupp
+- Gå med i en grupp
+- Se vilka tider som är bokade eller reserverade
 
-    Om en student tillhör en grupp gäller bokningsgränsen för hela gruppen. En student eller grupp kan ha maximalt tre bokningar.
+Om en student tillhör en grupp gäller bokningsgränsen för hela gruppen. En student eller grupp kan ha maximalt tre bokningar.
 
-    När en student väljer en tid reserveras den tillfälligt innan bokningen genomförs. Detta förhindrar att två personer bokar samma tid samtidigt.
+När en student väljer en tid reserveras den tillfälligt innan bokningen genomförs. Detta förhindrar att två personer bokar samma tid samtidigt.
 
-Assistent
-    Som assistent kan man:
-    - Logga in på en separat adminsida
-    - Skapa nya bokningstider
-    - Lägga till flera tider samtidigt
-    - Redigera befintliga bokningstider
-    - Ta bort bokningstider
-    - Se framtida bokningar
-    - Se information om vem som har bokat eller avbokat en tid
+## Assistent
+Som assistent kan man:
+- Logga in på en separat adminsida
+- Skapa nya bokningstider
+- Lägga till flera tider samtidigt
+- Redigera befintliga bokningstider
+- Ta bort bokningstider
+- Se framtida bokningar
+- Se information om vem som har bokat eller avbokat en tid
 
-    Formuläret för att skapa bokningar sparas även som ett utkast.
+Formuläret för att skapa bokningar sparas även som ett utkast.
 
 # Teknik
 Projektet använder:
@@ -46,22 +46,11 @@ Projektet använder:
 Klienten finns i client och servern finns i server.
 
 # Köra programmet
-
-1. Klona repot
-Klona projektet och navigera till projektmappen:
-git clone <repository-url>
-cd <projektmapp>
-
-2. Installera paket
-Kör följande från projektets rotmapp:
+Installera nödvändiga paket genom att köra:
 npm install
 
-3. Starta programmet
-Kör:
+Starta programmet med:
 npm start
 
-Detta startar servern och gör Vue applikationen tillgänglig.
-
-4. Öppna programmet
-Öppna följande adress i webbläsaren:
+Öppna sedan programmet i webbläsaren på:
 http://localhost:8989
